@@ -1,0 +1,23 @@
+#search {
+    border: 3px solid var(--boder-primary);
+    padding-left: 1rem;
+    color: #444;
+}
+
+#search:focus {
+    outline: none;
+    border: 3px solid var(--boder-secondary);
+}
+
+#search::placeholder{
+    color: rgba(128, 128, 128, 0.618);
+}
+
+#btn{
+    background-color: var(--color-brand);
+    color: var(--always-white);
+}
+
+#btn:hover{
+    background-color: var(--color-brand-hover);
+}

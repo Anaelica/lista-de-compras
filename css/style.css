@@ -1,0 +1,26 @@
+@import url(global.css);
+@import url(input.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card-container{
+    margin: auto;
+    width: 500px;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#top form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 30px;
+}
+
+#search {
+    grid-column: span 2; 
+}
