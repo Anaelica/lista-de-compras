@@ -1,5 +1,6 @@
 @import url(global.css);
 @import url(input.css);
+@import url(itens.css);
 
 * {
     margin: 0px;
@@ -8,17 +9,45 @@
 }
 
 .card-container{
+    display: flex;
+    flex-direction: column;
     margin: auto;
     width: 500px;
     height: 100vh;
     background-color: aqua;
 }
 
+.quik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    margin-top: 1.2rem;
+}
+
+h1{
+    color: var(--content-secondary);
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+#logo{
+    height: 80%;
+}
+    
 #top form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding-top: 30px;
+    background-color: red;
 }
 
 #search {

@@ -18,11 +18,16 @@
     --font: "Inter", sans-serif;
 }
 
+body{
+    background-color: #F4F5FB;
+}
+
 input,button{
     border-radius: 8px;
     padding: 3px;
-    height: 2.0rem;
+    height: 2.3rem;
     border: 0px;
     font-family: var(--font);
     font-weight: 500;
+    letter-spacing: 0.2px;
 }
