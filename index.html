@@ -10,12 +10,21 @@
     <title>Lista de compras</title>
 </head>
 <body>
-        <div class="card-container">
-            <div class="quik">
-                <img src="assets/icons/logo.svg" id="logo" alt="Logo QUicklist">
-                <h1>quiklist</h1>
-            </div>
-            <header id="top">
+    <div class="quik">
+        <img src="assets/icons/logo.svg" id="logo" alt="Logo QUicklist">
+        <h2>quiklist</h2>
+    </div>
+    
+    <div class="card-container">
+        <header id="top">
+                <div class="page-header">
+                    <a href="#" class="back-btn">
+                        <img src="assets/icons/arrow.png" class="back" alt="Voltar">
+                         <span>Voltar</span>
+                    </a>
+
+                    <h1 id="compras">Compras da semana</h1>
+                </div>
                 <form>
                     <label for="search" style="display: none;">Adicionar item</label>
                     <input type="text" id="search" placeholder="Adicionar um novo item">
@@ -32,7 +41,7 @@
                                 <span class="custom-check"></span>
                             </label>
                             <span class="text">Pão de forma</span>
-                            <img class="lixo" src="assets/icons/lixo-li.svg" alt="">
+                            <img class="lixo" src="assets/icons/lixo-li.svg" alt="Remover item"">
                         </li>
 
                         <li class="items">
@@ -41,7 +50,25 @@
                                 <span class="custom-check"></span>
                             </label>
                             <span class="text">Café preto</span>
-                            <img class="lixo" src="assets/icons/lixo-li.svg" alt="">
+                            <img class="lixo" src="assets/icons/lixo-li.svg" alt="Remover item"">
+                        </li>
+
+                        <li class="items">
+                            <label class="item-check">
+                                <input type="checkbox" class="check">
+                                <span class="custom-check"></span>
+                            </label>
+                            <span class="text">Suco de Laranja</span>
+                            <img class="lixo" src="assets/icons/lixo-li.svg" alt="Remover item"">
+                        </li>
+
+                        <li class="items">
+                            <label class="item-check">
+                                <input type="checkbox" class="check">
+                                <span class="custom-check"></span>
+                            </label>
+                            <span class="text">Bolacha</span>
+                            <img class="lixo" src="assets/icons/lixo-li.svg" alt="Remover item">
                         </li>
                     </ul>   
                     </div>
