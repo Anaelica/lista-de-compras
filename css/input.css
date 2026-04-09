@@ -4,8 +4,7 @@
     color: #444;
 }
 
-#search:focus {
-    outline: none;
+#search:hover{
     border: 3px solid var(--boder-secondary);
 }
 
@@ -13,11 +12,20 @@
     color: rgba(128, 128, 128, 0.618);
 }
 
+#search:focus {
+    outline: none;
+    border: 3px solid var(--color-brand-hover);   
+}
+
+#search:focus::placeholder {
+    color: black;
+}
+
 #btn{
     background-color: var(--color-brand);
     color: var(--always-white);
 }
-
+    
 #btn:hover{
     background-color: var(--color-brand-hover);
 }

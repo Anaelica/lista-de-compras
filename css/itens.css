@@ -1,9 +1,8 @@
 ul {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
     padding: 0;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .items {
@@ -18,13 +17,14 @@ ul {
     padding: 0rem 0.5rem;
     
     border-radius: 8px;
-    height: 2rem;
+    height: 2.5rem;
+    color: var(--content-secondary);
 }
 
 .text {
     flex: 1;
     margin-left: .70rem;
-    font-family: var(--font);
+    font-size: .95rem;
     font-weight: semibold;
 }
 
@@ -42,6 +42,9 @@ ul {
     height: 1rem;
     background-image: url("../assets/icons/select-default.svg");
     cursor: pointer;
+}
+.custom-check:hover{
+    background-image: url("../assets/icons/select-hover.svg");
 }
 
 .check:checked+.custom-check {
